@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Meow</title>
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat:wght@200&family=Roboto&family=Square+Peg&display=swap" rel="stylesheet">
+
+      <!-- CSS Stylesheets -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/520f462a95.js" crossorigin="anonymous"></script>
+
+      <!-- Bootstrap Scripts -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <div class="head">
+    <a class="navbar-brand" href="index.html">Meow</a><i class="akon fa-solid fa-paw "></i>
+    </div>
+    <div class="conform">
+      <h2>We’d love to hear from you</h2>
+     <p>Whether you’re curious about features, a free trial, or even press—we’re ready to answer any and all questions.</p>
+    <form method="post" name="Form">
+      <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+        <label for="lname">Email:</label><br>
+        <input type="email"  name="email" ><br>
+        <label for="Message">Message:</label><br>
+        <textarea  rows="8" cols="50">    Enter your message.....</textarea><br><br>
+        <button class="button btn btn-lg btn-dark" type="button"  onclick="sentmail()">Submit</button><br><br>
+        <p id="con"></p>
+     </form>
+  </div>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2022 Meow</p>
+    </div>
+  </footer>
+    <script src="index.js"></script>
+</body>
+</html>
